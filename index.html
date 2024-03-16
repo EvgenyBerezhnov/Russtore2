@@ -1,0 +1,89 @@
+<html>
+<head>
+      <link rel='stylesheet' href='style.css'/>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Galaxy</title>
+    <script src='https://kit.fontawesome.com/f77600b8df.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav>
+        <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Проект</div>
+        <div class='nav-item' onclick="document.getElementById('team').scrollIntoView({behavior: 'smooth'});">Команда</div>
+        <div class='nav-item' onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Скачать</div>
+    </nav>
+    <header>
+        <h1>Рус стор<span class='mars mars1'></span></h1>
+        <div class='arrow-next'><i class='fa-solid fa-arrow-down'></i></div>
+    </header>
+    <main>
+        <section class='section1' id='about'>
+            <h1>Рус стор</h1>
+            <div class='about-wrapper'>
+                <p>Рус стор это игровая платформа где можно приобрести разные игры <i>но таким никого не удивить</i>.</p>
+                <p>Наше отличие в том что у нас много распродаж и маленькие цены. Каждую неделю мы раздаём <span class='mars mars2'><b>3 беспланых игры</b></span>.</p>
+                <p>Каждый месяц мы проводим игровые турниры где все соривнуются за <span class='mars mars3'>призы</span> главный приз это игровой кампютер и есть ещё много других <span class='mars mars4'>призов</span>.</p>
+                <p>Добро пожаловать в <b>мир игр</b>.</p>
+            </div>
+        </section>
+        <section class='section2' id='team'>
+            <h1>Бесплатные игры (за этот месяц)</h1>
+            <div class='team-wrapper'>
+                <div class='team-item team1'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>кс-го</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class='team-item team2'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Маинкрафт</h2>
+                        <p>.</p>
+                    </div>
+                </div>
+                <div class='team-item team3'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Fortnite</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section3' id='submit'>
+            <div class='submit-wrapper'>
+                <h1>Регистрация</h1>
+                <div class='submit-form'>
+                    <input class='submit-input' type='text' placeholder='имя'>
+                    <p class='submit-input-label'>имя</p>
+                    <input class='submit-input' type='email' placeholder='e-mail'>
+                    <p class='submit-input-label'>e-mail</p>
+                    <input class='submit-input' type='text' placeholder='телефон'>
+                    <p class='submit-input-label'>номер телефона</p>
+                    <div class='submit-input-row'>
+                        <div class='group'>
+                            <input class='submit-input row-item days-input' type='number' placeholder='дни'>
+                            <p class='submit-input-label'>дней <span class='mars mars5'>подписки</span></p>
+                        </div>  
+                        <div class='group'>
+                            <select class='submit-select row-item' placeholder='каюта'>
+                                <option value='1000' selected='selected'>Базовая</option>
+                                <option value='2000'>Премиум</option>
+                                <option value='3000'>Люкс</option>
+                            </select>
+                            <p class='submit-input-label'>класс подписки</p>
+                        </div>  
+                    </div>
+                </div>
+                <div class='submit-btn-row'>
+                    <div class='submit-btn submit-btn-calc'>Стоимость</div>
+                    <div class='submit-btn submit-btn-send'>зарегистрироваться</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
